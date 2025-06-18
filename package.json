@@ -1,0 +1,66 @@
+{
+  "name": "player-performance-comparison-dashboard",
+  "version": "1.0.0",
+  "description": "Interactive dashboard for comparing NBA player performance metrics with customizable visualizations and historical trends",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "server": "nodemon server/index.js",
+    "start": "node server/index.js",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dxaginfo/player-performance-comparison-dashboard.git"
+  },
+  "keywords": [
+    "nba",
+    "basketball",
+    "statistics",
+    "dashboard",
+    "data-visualization",
+    "player-comparison"
+  ],
+  "author": "dxaginfo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dxaginfo/player-performance-comparison-dashboard/issues"
+  },
+  "homepage": "https://github.com/dxaginfo/player-performance-comparison-dashboard#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.0.1",
+    "axios": "^1.6.2",
+    "chart.js": "^4.4.1",
+    "d3": "^7.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^9.0.4",
+    "react-router-dom": "^6.21.0"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "@types/node": "^20.10.4",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "nodemon": "^3.0.2",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8",
+    "vitest": "^1.0.4"
+  }
+}
